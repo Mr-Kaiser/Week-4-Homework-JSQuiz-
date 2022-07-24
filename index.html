@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href=".\assets\style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header class="bg-danger text-center text-white">
+    <h1>Code Quiz</h1></header>
+    <h3 id="timer"></h3>
+    <section class="container text-center m-5 p-5">
+    <ul>
+        <li>Time</li>
+    </ul>
+    <button id="start" class="btn btn-success">Start Quiz</button>
+    </section>
+    <main class="container m-5 p-5 " id="quiz-container">
+        <h2 id="question">Ex question</h2> 
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" id="1" type="button">Button</button>
+            <button class="btn btn-primary" id="2" type="button">Button</button>
+            <button class="btn btn-primary" id="3" type="button">Button</button>
+            <button class="btn btn-primary" id="4" type="button">Button</button>
+          </div>
+          <h4 id="evaluate"></h4>
+    </main>
+    <section id="Score-container">
+        <h3 id="score"></h3>
+        <input type="text" id="userinitials" />
+        <button id="save">SaveUser</button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
