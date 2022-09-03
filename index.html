@@ -14,14 +14,16 @@
 <body>
     <header class="bg-danger text-center text-white">
     <h1>Code Quiz</h1></header>
-    <h3 id="timer"></h3>
-    <section class="container text-center m-5 p-5">
-    <ul>
-        <li>Time</li>
+    <h3 class="text-center fs-2" id="timer"></h3>
+    <section class="container mt-5 fs-2 text-center">
+    <ul id="instructions">
+        <li>Timed</li>
+        <li>Must get 100%</li>
+        <li>Save your score!</li>
     </ul>
-    <button id="start" class="btn btn-success">Start Quiz</button>
+    <button id="start" class="btn btn-success btn-lg center">Start Quiz</button>
     </section>
-    <main class="container m-5 p-5 " id="quiz-container">
+    <main class="container" id="quiz-container">
         <h2 id="question">Ex question</h2> 
         <div class="d-grid gap-2">
             <button class="btn btn-primary" id="1" type="button">Button</button>
@@ -29,7 +31,7 @@
             <button class="btn btn-primary" id="3" type="button">Button</button>
             <button class="btn btn-primary" id="4" type="button">Button</button>
           </div>
-          <h4 id="evaluate"></h4>
+          <h4 class="text-center mt-5" id="evaluate"></h4>
     </main>
     <section id="Score-container">
         <h3 id="score"></h3>
